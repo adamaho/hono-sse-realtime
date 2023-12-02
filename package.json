@@ -1,0 +1,15 @@
+{
+  "name": "hono-sse-realtime",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.3.1",
+    "hono": "^3.10.4",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.2",
+    "tsx": "^4.6.1"
+  }
+}
